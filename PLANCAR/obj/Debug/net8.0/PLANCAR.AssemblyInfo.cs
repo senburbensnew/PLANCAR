@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PLANCAR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b655cb9f48e763b0fe740013953540f38d0fcc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1df0a7f32cebd0746d6a8c95f6428dfeeffc97a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PLANCAR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PLANCAR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
