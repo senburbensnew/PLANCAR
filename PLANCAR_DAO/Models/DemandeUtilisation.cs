@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class DemandeUtilisation
     {
+        public long Id { get; set; }
         public string NoDemande { get; set; }
         public DateTime DateDemande { get; set; }
         public DateTime DebutUtilisation { get; set; }

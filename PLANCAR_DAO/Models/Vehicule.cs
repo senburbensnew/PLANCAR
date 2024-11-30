@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class Vehicule
     {
+        public long Id { get; set; }
         public string Couleur { get; set; }
         public DateTime DateService { get; set; }
         public string Immatriculation { get; set; }

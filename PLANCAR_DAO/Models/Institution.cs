@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class Institution
     {
+        public long Id { get; set; }
         public int Adresse { get; set; }         
         public string Email { get; set; }    
         public string EmailResponsable { get; set; } 

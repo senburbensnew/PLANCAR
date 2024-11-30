@@ -10,7 +10,10 @@ namespace PLANCAR_DAO.Models
 {
     public class Departement
     {
+        public long Id { get; set; }
         public string Libelle { get; set; }
+
+        public Departement() { }
 
         public Departement(string libelle)
         {

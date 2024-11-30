@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class Ville
     {
+        public long Id { get; set; }
         public string Libelle { get; set; }
         public Departement Departement { get; set; }
 

@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class Utilisateur
     {
+        public long Id { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public Privilege Privilege { get; set; }

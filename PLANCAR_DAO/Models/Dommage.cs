@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class Dommage
     {
+        public long Id { get; set; }
         public string Description { get; set; }
     }
 }

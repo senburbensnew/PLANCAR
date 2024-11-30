@@ -8,6 +8,7 @@ namespace PLANCAR_DAO.Models
 {
     public class Constat
     {
+        public long Id { get; set; }
         public DemandeUtilisation DemandeUtilisation {  get; set; }
         public DateTime DateEffectue { get; set; }
         public string EffectuePar { get; set; }
