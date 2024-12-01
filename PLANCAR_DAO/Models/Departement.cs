@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ using System.Xml.Linq;
 
 namespace PLANCAR_DAO.Models
 {
+    [Table("Departement")]
     public class Departement
     {
         public long Id { get; set; }

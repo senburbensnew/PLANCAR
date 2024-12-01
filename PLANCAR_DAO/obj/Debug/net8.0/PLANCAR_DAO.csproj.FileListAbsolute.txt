@@ -1,0 +1,15 @@
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\bin\Debug\net8.0\PLANCAR_DAO.deps.json
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\bin\Debug\net8.0\PLANCAR_DAO.runtimeconfig.json
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\bin\Debug\net8.0\PLANCAR_DAO.dll
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\bin\Debug\net8.0\PLANCAR_DAO.pdb
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.csproj.AssemblyReference.cache
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.AssemblyInfoInputs.cache
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.AssemblyInfo.cs
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.csproj.CoreCompileInputs.cache
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.sourcelink.json
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.dll
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\refint\PLANCAR_DAO.dll
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.pdb
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\PLANCAR_DAO.genruntimeconfig.cache
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DAO\obj\Debug\net8.0\ref\PLANCAR_DAO.dll

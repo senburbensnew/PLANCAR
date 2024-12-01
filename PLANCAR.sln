@@ -6,8 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLANCAR", "PLANCAR\PLANCAR.csproj", "{C969457B-78AC-41FC-B295-5E98A7DAE76D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5366DDC4-F015-4292-9C86-7D4ACE03C5EE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLANCAR_DAO", "PLANCAR_DAO\PLANCAR_DAO.csproj", "{C4FD3953-CD1F-4A14-99CC-16876D2E4979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLANCAR_DTO", "PLANCAR_DTO\PLANCAR_DTO.csproj", "{C6BFE1CB-BEAB-4416-B504-142BC83E7B3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,10 @@ Global
 		{C4FD3953-CD1F-4A14-99CC-16876D2E4979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4FD3953-CD1F-4A14-99CC-16876D2E4979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4FD3953-CD1F-4A14-99CC-16876D2E4979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BFE1CB-BEAB-4416-B504-142BC83E7B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BFE1CB-BEAB-4416-B504-142BC83E7B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BFE1CB-BEAB-4416-B504-142BC83E7B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BFE1CB-BEAB-4416-B504-142BC83E7B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

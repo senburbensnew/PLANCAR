@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PLANCAR_DAO.Models
 {
+    [Table("Vehicule")]
     public class Vehicule
     {
         public long Id { get; set; }
@@ -18,5 +20,7 @@ namespace PLANCAR_DAO.Models
         public string Modele { get; set; }
         public string NumeroSerie { get; set; }
         public StatutVehicule StatutVehicule { get; set; }
+
+        public Vehicule() { }
     }
 }

@@ -1,4 +1,5 @@
-﻿using PLANCAR_DAO.Interfaces;
+﻿
+using PLANCAR_DAO.IDAO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PLANCAR_DAO.DAO
 {
-    public class VehiculeEF_DAO:IVehiculeDAO
+    public class VehiculeEF_DAO: IVehiculeDAO
     {
     }
 }
