@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PLANCAR_DAO.Models
 {
@@ -11,27 +6,16 @@ namespace PLANCAR_DAO.Models
     public class Institution
     {
         public long Id { get; set; }
-        public int Adresse { get; set; }         
+        public string Adresse { get; set; }         
         public string Email { get; set; }    
         public string EmailResponsable { get; set; } 
         public string Nom { get; set; }    
-        public int NomResponsable { get; set; }
-        public int Telephone { get; set; }
-        public int TelephoneResponsable { get; set; }
+        public string NomResponsable { get; set; }
+        public string Telephone { get; set; }
+        public string TelephoneResponsable { get; set; }
         public Ville Localisation { get; set; }
+        public int LocalisationId { get; set; } // Foreign Key to Ville
 
         public Institution() { }
-
-        public Institution(int adresse, string email, string emailResponsable, string nom, int nomResponsable, int telephone, int telephoneResponsable, Ville localisation)
-        {
-            Adresse = adresse;
-            Email = email;
-            EmailResponsable = emailResponsable;
-            Nom = nom;
-            NomResponsable = nomResponsable;
-            Telephone = telephone;
-            TelephoneResponsable = telephoneResponsable;
-            Localisation = localisation;
-        }
     }
 }

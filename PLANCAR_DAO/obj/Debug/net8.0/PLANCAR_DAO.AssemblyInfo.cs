@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PLANCAR_DAO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57bde31aead44759dbcb0f6fc2184379b8d03dc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+483e2fd43cfc568c08eaa24233e7f5a1e64d41eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("PLANCAR_DAO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PLANCAR_DAO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

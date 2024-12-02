@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PLANCAR_DAO.Models
 {
@@ -12,14 +7,12 @@ namespace PLANCAR_DAO.Models
     {
         public long Id { get; set; }
         public string Libelle { get; set; }
+        public int DepartementId { get; set; }
         public Departement Departement { get; set; }
+        public ICollection<Institution> Institutions { get; set; }
 
-        public Ville() { }
-
-        public Ville(string libelle, Departement departement)
-        {
-            Libelle = libelle;
-            Departement = departement;
+        public Ville() {
+            Institutions = new List<Institution>();
         }
     }
 }

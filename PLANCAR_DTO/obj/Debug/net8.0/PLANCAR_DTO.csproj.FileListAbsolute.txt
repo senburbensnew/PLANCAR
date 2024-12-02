@@ -1,0 +1,12 @@
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\bin\Debug\net8.0\PLANCAR_DTO.deps.json
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\bin\Debug\net8.0\PLANCAR_DTO.dll
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\bin\Debug\net8.0\PLANCAR_DTO.pdb
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.AssemblyInfoInputs.cache
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.AssemblyInfo.cs
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.csproj.CoreCompileInputs.cache
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.sourcelink.json
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.dll
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\refint\PLANCAR_DTO.dll
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\PLANCAR_DTO.pdb
+C:\Users\rubens\source\repos\PLANCAR\PLANCAR_DTO\obj\Debug\net8.0\ref\PLANCAR_DTO.dll

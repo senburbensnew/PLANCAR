@@ -14,6 +14,12 @@ namespace PLANCAR_DAO.Data
         public DbSet<Utilisateur> Utilisateurs { get; set; }
         public DbSet<Vehicule> Vehicules { get; set; }
 
+        // Constructor to pass DbContextOptions to the base class
+        public PlancarDbContext(DbContextOptions<PlancarDbContext> options)
+            : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseOracle("User Id=Test;Password=password;Data Source=localhost:1521/free");

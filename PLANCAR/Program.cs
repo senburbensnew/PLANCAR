@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using PLANCAR_DAO.DAO;
+using PLANCAR_DAO.Data;
+using PLANCAR_DAO.IDAO;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<PlancarDbContext>(options =>
+    options.UseOracle("User Id=Test;Password=password;Data Source=localhost:1521/free"));
+
+builder.Services.AddScoped<IDepartementDAO, DepartementEF_DAO>();
 
 var app = builder.Build();
 
