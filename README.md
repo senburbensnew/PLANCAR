@@ -1,26 +1,28 @@
-Titre du Projet :
-PLANCAR
-Objectif :
-Centralisé la gestion du parc automobile des différentes entités de l’état.
-Fonctionnalités
-Le système de gestion de parc automobile PLANCAR permet à une entité centrale d’être
-responsable de la gestion des automobiles d’une institution. Le système comprend 3 grands modules : un
-module d’administration, un module de gestion des demandes d’utilisation, un module d’alertes.
-Le module d’administration permet de gérer les véhicules et les instituions qui y ont accès. Le
-système permet également de traiter les formulaires de livraison et de réception des véhicules utilisés,
-ainsi que le constat sur l’état du véhicule au moment de sa réception et de sa livraison. Les informations
-des véhicules
-Les institutions en se connectant au système peuvent consulter les véhicules disponibles et
-formuler une demande d’utilisation. Elles sont notifiées par email du traitement de la demande. La
-demande est validée automatiquement si aucun conflit n’est constaté : Conflit sur la date d’utilisation du
-véhicule et sa date limite de service). Les demandes doivent être formulées dix jours avant la date
-d’utilisation du véhicule. Une demande ne peut être formulée pour un véhicule non disponible à savoir
-en cours d’utilisation, ou déjà sollicité.
-Le module de gestion des alertes permet d’envoyer un ensemble de mail de notification. Le mail
-est transmis au responsable de la logistique de l’institution concernée. Le système permet les
-notifications suivantes :
- Le système génère des alertes d’avertissement pour les véhicules endommagés.
- Le système permet également d’envoyer des notifications pour les mots de passe des utilisateurs
-lors de la création du compte d’accès des institutions.
- Le système permet de notifier l’ensemble des institutions de la disponibilité des nouveaux
-véhicules
+# PLANCAR
+
+## Objectif
+Centraliser la gestion du parc automobile des différentes entités de l’État.
+
+## Fonctionnalités
+Le système de gestion de parc automobile **PLANCAR** permet à une entité centrale de gérer les automobiles d’une institution. Il comprend trois modules principaux :
+
+### 1. Module d’administration
+- Gestion des véhicules et des institutions ayant accès au système.
+- Traitement des formulaires de livraison et de réception des véhicules utilisés.
+- Enregistrement de l’état des véhicules lors de leur réception et livraison.
+
+### 2. Module de gestion des demandes d’utilisation
+- Consultation des véhicules disponibles par les institutions connectées au système.
+- Formulation et gestion des demandes d’utilisation.
+- Notification par email pour le suivi des demandes.
+- Validation automatique des demandes si aucun conflit n’est constaté (dates d’utilisation ou limites de service).
+- Règles des demandes :
+  - Formulées au moins 10 jours avant la date d’utilisation.
+  - Non permises pour les véhicules en cours d’utilisation ou déjà sollicités.
+
+### 3. Module de gestion des alertes
+- Envoi de notifications par email au responsable de la logistique des institutions concernées.
+- Notifications disponibles :
+  - Alertes pour les véhicules endommagés.
+  - Notifications de création de mots de passe pour les comptes des institutions.
+  - Notifications sur la disponibilité de nouveaux véhicules.
