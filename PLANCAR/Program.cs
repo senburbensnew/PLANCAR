@@ -8,10 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<PlancarDbContext>(options =>
+/* builder.Services.AddDbContext<PlancarDbContext>(options =>
     options.UseOracle("User Id=Test;Password=password;Data Source=localhost:1521/free"));
 
-builder.Services.AddScoped<IDepartementDAO, DepartementEF_DAO>();
+builder.Services.AddScoped<IDepartementDAO, DepartementEF_DAO>(); */
 
 var app = builder.Build();
 

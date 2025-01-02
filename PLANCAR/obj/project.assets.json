@@ -555,20 +555,6 @@
           }
         }
       },
-      "PLANCAR_DAO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
-          "Oracle.EntityFrameworkCore": "7.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PLANCAR_DAO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PLANCAR_DAO.dll": {}
-        }
-      },
       "PLANCAR_DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -577,6 +563,21 @@
         },
         "runtime": {
           "bin/placeholder/PLANCAR_DTO.dll": {}
+        }
+      },
+      "PLANCAR_REPOSITORY/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
+          "Oracle.EntityFrameworkCore": "7.0.0",
+          "PLANCAR_DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PLANCAR_REPOSITORY.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PLANCAR_REPOSITORY.dll": {}
         }
       }
     }
@@ -1373,21 +1374,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "PLANCAR_DAO/1.0.0": {
-      "type": "project",
-      "path": "../PLANCAR_DAO/PLANCAR_DAO.csproj",
-      "msbuildProject": "../PLANCAR_DAO/PLANCAR_DAO.csproj"
-    },
     "PLANCAR_DTO/1.0.0": {
       "type": "project",
       "path": "../PLANCAR_DTO/PLANCAR_DTO.csproj",
       "msbuildProject": "../PLANCAR_DTO/PLANCAR_DTO.csproj"
+    },
+    "PLANCAR_REPOSITORY/1.0.0": {
+      "type": "project",
+      "path": "../PLANCAR_REPOSITORY/PLANCAR_REPOSITORY.csproj",
+      "msbuildProject": "../PLANCAR_REPOSITORY/PLANCAR_REPOSITORY.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "PLANCAR_DAO >= 1.0.0",
-      "PLANCAR_DTO >= 1.0.0"
+      "PLANCAR_DTO >= 1.0.0",
+      "PLANCAR_REPOSITORY >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1422,11 +1423,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR_DAO\\PLANCAR_DAO.csproj": {
-              "projectPath": "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR_DAO\\PLANCAR_DAO.csproj"
-            },
             "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR_DTO\\PLANCAR_DTO.csproj": {
               "projectPath": "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR_DTO\\PLANCAR_DTO.csproj"
+            },
+            "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR_REPOSITORY\\PLANCAR_REPOSITORY.csproj": {
+              "projectPath": "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR_REPOSITORY\\PLANCAR_REPOSITORY.csproj"
             }
           }
         }
@@ -1439,7 +1440,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -1465,7 +1466,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1474,18 +1475,8 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "PLANCAR_DAO depends on Oracle.EntityFrameworkCore (>= 7.0.0) but Oracle.EntityFrameworkCore 7.0.0 was not found. Oracle.EntityFrameworkCore 7.21.8 was resolved instead.",
+      "message": "PLANCAR_REPOSITORY depends on Oracle.EntityFrameworkCore (>= 7.0.0) but Oracle.EntityFrameworkCore 7.0.0 was not found. Oracle.EntityFrameworkCore 7.21.8 was resolved instead.",
       "libraryId": "Oracle.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Oracle.ManagedDataAccess.Core' 3.21.80 has a known high severity vulnerability, https://github.com/advisories/GHSA-5pm2-9mr2-3frq",
-      "libraryId": "Oracle.ManagedDataAccess.Core",
       "targetGraphs": [
         "net8.0"
       ]

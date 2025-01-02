@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p5+01Y2hnpA=",
+  "dgSpecHash": "FvA8UG2MkPs=",
   "success": true,
   "projectFilePath": "C:\\Users\\rubens\\source\\repos\\PLANCAR\\PLANCAR\\PLANCAR.csproj",
   "expectedPackageFiles": [
@@ -38,18 +38,8 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "PLANCAR_DAO depends on Oracle.EntityFrameworkCore (>= 7.0.0) but Oracle.EntityFrameworkCore 7.0.0 was not found. Oracle.EntityFrameworkCore 7.21.8 was resolved instead.",
+      "message": "PLANCAR_REPOSITORY depends on Oracle.EntityFrameworkCore (>= 7.0.0) but Oracle.EntityFrameworkCore 7.0.0 was not found. Oracle.EntityFrameworkCore 7.21.8 was resolved instead.",
       "libraryId": "Oracle.EntityFrameworkCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Oracle.ManagedDataAccess.Core' 3.21.80 has a known high severity vulnerability, https://github.com/advisories/GHSA-5pm2-9mr2-3frq",
-      "libraryId": "Oracle.ManagedDataAccess.Core",
       "targetGraphs": [
         "net8.0"
       ]

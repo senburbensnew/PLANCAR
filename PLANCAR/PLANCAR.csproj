@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PLANCAR_DAO\PLANCAR_DAO.csproj" />
     <ProjectReference Include="..\PLANCAR_DTO\PLANCAR_DTO.csproj" />
+    <ProjectReference Include="..\PLANCAR_REPOSITORY\PLANCAR_REPOSITORY.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <Target Name="Tailwind" BeforeTargets="Build">
-	<Exec Command="npm run css:build"/>
+	<Exec Command="npm run css:build" />
   </Target>
 
 </Project>

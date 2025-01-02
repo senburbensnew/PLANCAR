@@ -1,20 +1,21 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PLANCAR.Models;
-using PLANCAR_DAO.IDAO;
 
 namespace PLANCAR.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IDepartementDAO _departementDAO;
 
-        public HomeController(ILogger<HomeController> logger, IDepartementDAO departementDAO)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _departementDAO = departementDAO;
         }
+
+        // Method bubble sort
+
+
 
         public IActionResult Index()
         {
